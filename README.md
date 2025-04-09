@@ -48,7 +48,7 @@ The application will be available at [http://localhost:3000](http://localhost:30
 
 ### Related Projects
 
-- [Backend Repository - Go API with IPFS integration](https://github.com/nathlp/go-deployment)
+- [Backend Repository - Go API with IPFS integration](https://github.com/nathlp/go-tokenize)
 
 - To test this project locally, you can run the Go backend server on your machine, and the frontend will connect to it automatically. Make sure the backend is running at `http://localhost:8080`.
 
