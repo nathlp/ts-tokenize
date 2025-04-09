@@ -23,8 +23,8 @@ This is a simple frontend application that allows users to:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-frontend-repo.git
-cd your-frontend-repo
+git clone https://github.com/nathlp/ts-tokenize.git
+cd ts-tokenize
 ```
 
 2. Install dependencies:
@@ -73,7 +73,7 @@ POST http://localhost:8080/upload
 
 ### 3. Smart Contract Interaction
 
-- After receiving the IPFS URL, the frontend calls a smart contract function (e.g., `tokenizeAsset(ipfsUrl)`) using `ethers.js`.
+- After receiving the IPFS URL, the frontend calls a smart contract function (e.g., `tokenizeAsset(tokenURI)`) using `ethers.js`.
 - The contract mints a new token associated with the uploaded image via its token URI.
 
 ---
