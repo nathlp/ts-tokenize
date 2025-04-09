@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tokenizar Ativo</title>
+</head>
+<body>
+  <h1>Tokenizar Ativo</h1>
+
+  <button id="connectBtn">🔗 Conectar com MetaMask</button>
+  <p id="wallet"></p>
+
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="text" name="name" placeholder="Nome do ativo" required><br>
+    <input type="text" name="description" placeholder="Descrição" required><br>
+    <input type="text" name="json_name" placeholder="Json Name" required /><br/>
+    <input type="file" name="file" required><br>
+    <button type="submit">Tokenizar</button>
+  </form>
+
+  <p id="status"></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
